@@ -1,0 +1,107 @@
+
+/* nav bar */
+body{
+    background-color: #dcdfe7;
+   
+}
+.navbar {
+    position:relative;
+    opacity:1;
+    /* background-color: blue; */
+}
+.navbar{
+    color:red;
+}
+
+.head_message{
+   
+    text-align: center;
+}
+.navbar-brand{
+	
+	background-repeat: no-repeat;
+    background-position: 15px 0; 
+    height:  auto;
+    margin: 0;
+}
+
+.heading, h1 {
+    margin-right: 30px;
+    font-size: 2rem;
+    padding-left: 60px;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+
+}
+.subhead{
+    font-size: 0.8rem;
+    display: block;
+    font-weight: 100;
+    padding-left: 60px;
+    margin-top: -20px;  
+}
+
+.lead, p,h2{
+    margin-left: 60px;
+} 
+
+.white-section{
+    color: #fff;
+  }
+
+  .card{
+      margin-left: 10px;
+  }
+
+ /* .pope_photo{
+   position: relative;
+   left:20px;
+ } */
+#church_info{
+    margin:10px;
+}
+.social-group{
+    margin-left: 550px;
+}
+#orphan_registration{
+ margin: 10px;
+}
+
+#footer{
+    background-color: #000;
+    height: 100%;
+    position: relative;
+  
+}
+.social-icon{
+  margin: 20px 10px ;
+}
+.end{
+    font-size:8px;
+    margin-bottom: 5px;
+  }
+@media(max-width:995px){
+    #white-section{
+      text-align: center;
+    }
+    
+}
+@media(max-width:766px){
+   .pope_photo{
+      margin-left:160px;
+    }
+    .card{
+        margin-left:60px;
+        margin-right:60px;
+    }
+@media(max){
+
+  }
+}
+/* orphan form */
+
+h3 {
+    color: blue;
+    font-size: 2rem;
+    text-align: center;
+}
